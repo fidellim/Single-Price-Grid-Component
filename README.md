@@ -26,12 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Solution%20PC.png)
+![](./images/Solution%20Mobile.png)
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/fidellim/Single-Price-Grid-Component)
+- Live Site URL: [Live Site](https://epic-bartik-368a16.netlify.app/)
 
 ## My process
 
@@ -45,34 +46,27 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I have learnt on how to use CSS Grid.
 
 ```css
-.proud-of-this-css {
-	color: papayawhip;
+.container {
+	margin: 0 2rem;
+	display: grid;
+	width: 700px;
+	max-width: 700px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
 }
-```
-
-```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
-};
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+To practice more CSS Grid.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Resource for CSS Grid.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column) - Another resource for CSS Grid.
 
 ## Author
 
